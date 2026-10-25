@@ -1,1 +1,45 @@
 
+.container {
+    text-align: center;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+}
+
+.timer {
+    font-size: 48px;
+    margin: 25px 0;
+    font-family: monospace;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.laps {
+    list-style: none;
+    padding: 0;
+}
+
+.laps li {
+    margin: 10px auto;
+    font-size: 18px;
+}
+
